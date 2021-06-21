@@ -1,8 +1,3 @@
-DROP DATABASE IF EXISTS web_ssg;
-
-CREATE DATABASE web_ssg;
-USE web_ssg;
-
 CREATE TABLE user (
     id INT NOT NULL AUTO_INCREMENT,
     user_id VARCHAR(50) NOT NULL,
